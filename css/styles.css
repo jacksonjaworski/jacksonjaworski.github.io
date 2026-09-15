@@ -896,3 +896,15 @@ p {
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
+
+.about-copy .bio-link {
+  font: inherit;
+  letter-spacing: inherit;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+.about-copy .bio-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
